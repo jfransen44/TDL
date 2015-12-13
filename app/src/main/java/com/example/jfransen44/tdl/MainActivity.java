@@ -57,6 +57,7 @@ public class MainActivity extends AppCompatActivity {
                         .push()
                         .child("text")
                         .setValue(text.getText().toString());
+                text.setText("");
             }
         });
 
