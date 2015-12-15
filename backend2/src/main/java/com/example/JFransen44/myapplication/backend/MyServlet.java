@@ -26,7 +26,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-
+//cst438team4@gmail.com
+//mail password final438project
 
 public class MyServlet extends HttpServlet {
     static Logger Log = Logger.getLogger("com.example.JFransen44.myapplication.backend.MyServlet");
@@ -62,7 +63,7 @@ public class MyServlet extends HttpServlet {
                     msg.setFrom(new InternetAddress("nagger@glowing-torch-1077.appspotmail.com",
                             "Todo Nagger"));
                     msg.addRecipient(Message.RecipientType.TO,
-                            new InternetAddress("jfransen@csumb.edu", "Recipient"));
+                            new InternetAddress("cst438team4@gmail.com", "Recipient"));
                     msg.setSubject("Good Morning!");
                     msg.setText(newItemMessage.toString());
                     Transport.send(msg);

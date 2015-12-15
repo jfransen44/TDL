@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
     private ArrayAdapter<String> adapter;
     private Button clearButton;
     private Button addButton;
+    private Firebase fb;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -50,45 +51,32 @@ public class MainActivity extends AppCompatActivity {
         // Use Firebase to populate the list.
         Firebase.setAndroidContext(this);
 
-        new Firebase("https://glowing-torch-1077.firebaseio.com/todoItems")
-           .addChildEventListener(new ChildEventListener() {
-               public void onChildAdded(DataSnapshot dataSnapshot, String s) {
-                   adapter.add((String) dataSnapshot.child("text").getValue());
-               }
+        fb = new Firebase("https://glowing-torch-1077.firebaseio.com/todoItems");
+        fb.addChildEventListener(new ChildEventListener() {
+            public void onChildAdded(DataSnapshot dataSnapshot, String s) {
+                adapter.add((String) dataSnapshot.child("text").getValue());
+            }
 
-               public void onChildRemoved(DataSnapshot dataSnapshot) {
-                   adapter.remove((String) dataSnapshot.child("text").getValue());
-               }
+            public void onChildRemoved(DataSnapshot dataSnapshot) {
+                adapter.remove((String) dataSnapshot.child("text").getValue());
+            }
 
-               public void onChildChanged(DataSnapshot dataSnapshot, String s) {
-               }
+            public void onChildChanged(DataSnapshot dataSnapshot, String s) {
+            }
 
-               public void onChildMoved(DataSnapshot dataSnapshot, String s) {
-               }
+            public void onChildMoved(DataSnapshot dataSnapshot, String s) {
+            }
 
-               public void onCancelled(FirebaseError firebaseError) {
-               }
-           });
-
-        // Add items via the Button and EditText at the bottom of the window.
-
-        addButton.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                getTask(v);
+            public void onCancelled(FirebaseError firebaseError) {
             }
         });
+
+        //set up listeners
         setUpClearButtonListener();
         setupLongClickListener();
+        setUpAddButton();
+        setBackgroundColorListener();
 
-        //change item background color if checkbox is selected
-        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                if (listView.isItemChecked(position))
-                    view.setBackgroundColor(Color.GRAY);
-                else
-                    view.setBackgroundColor(Color.TRANSPARENT);
-            }
-        });
     }//end onCreate
 
     //called when user clicks add task button; start new activity
@@ -105,10 +93,7 @@ public class MainActivity extends AppCompatActivity {
                 this.taskDate = data.getStringExtra("dateString");
                 this.taskTime = data.getStringExtra("timeString");
                 if(! this.taskString.isEmpty()) {
-                    new Firebase("https://glowing-torch-1077.firebaseio.com/todoItems")
-                            .push()
-                            .child("text")
-                            .setValue(taskString + " " + taskDate + " " + " " + taskTime);
+                    fb.push().child("text").setValue(taskString + " " + taskDate + " " + " " + taskTime);
                 }
                 else
                     emptyTaskDialog();
@@ -116,6 +101,46 @@ public class MainActivity extends AppCompatActivity {
 
         }
     }//end onActivityResult
+
+    //set firebase delete items
+    private void deleteItem(int position){
+        fb.orderByChild("text").equalTo((String) listView.getItemAtPosition(position))
+                .addListenerForSingleValueEvent(new ValueEventListener() {
+                    @Override
+                    public void onDataChange(DataSnapshot dataSnapshot) {
+                        if (dataSnapshot.hasChildren()) {
+                            DataSnapshot firstChild = dataSnapshot.getChildren()
+                                    .iterator().next();
+                            firstChild.getRef().removeValue();
+                        }
+                    }
+
+                    @Override
+                    public void onCancelled(FirebaseError firebaseError) {
+                    }
+                });
+    }
+
+    //set add button listener
+    private void setUpAddButton() {
+        addButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                getTask(v);
+            }
+        });
+    }
+
+    public void setBackgroundColorListener(){
+        //change item background color if checkbox is selected
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                if (listView.isItemChecked(position))
+                    view.setBackgroundColor(Color.GRAY);
+                else
+                    view.setBackgroundColor(Color.TRANSPARENT);
+            }
+        });
+    }
 
     //set long click listener
     public void setupLongClickListener(){
@@ -134,22 +159,9 @@ public class MainActivity extends AppCompatActivity {
         clearButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                for(int i = 0; i < adapter.getCount(); i++){
+                for (int i = 0; i < adapter.getCount(); i++) {
                     if (listView.isItemChecked(i)) {
-                        new Firebase("https://glowing-torch-1077.firebaseio.com/todoItems")
-                                .orderByChild("text")
-                                .equalTo((String) listView.getItemAtPosition(i))
-                                .addListenerForSingleValueEvent(new ValueEventListener() {
-                                    public void onDataChange(DataSnapshot dataSnapshot) {
-                                        if (dataSnapshot.hasChildren()) {
-                                            DataSnapshot firstChild = dataSnapshot.getChildren().iterator().next();
-                                            firstChild.getRef().removeValue();
-                                        }
-                                    }
-
-                                    public void onCancelled(FirebaseError firebaseError) {
-                                    }
-                                });
+                        deleteItem(i);
                         listView.setItemChecked(i, false);
                     }
                 }
@@ -178,20 +190,7 @@ public class MainActivity extends AppCompatActivity {
         builder.setPositiveButton(R.string.posButtonMessage, new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
-                new Firebase("https://glowing-torch-1077.firebaseio.com/todoItems")
-                        .orderByChild("text")
-                        .equalTo((String) listView.getItemAtPosition(position))
-                        .addListenerForSingleValueEvent(new ValueEventListener() {
-                            public void onDataChange(DataSnapshot dataSnapshot) {
-                                if (dataSnapshot.hasChildren()) {
-                                    DataSnapshot firstChild = dataSnapshot.getChildren().iterator().next();
-                                    firstChild.getRef().removeValue();
-                                }
-                            }
-
-                            public void onCancelled(FirebaseError firebaseError) {
-                            }
-                        });
+                deleteItem(position);
             }
         });
 
@@ -215,7 +214,7 @@ public class MainActivity extends AppCompatActivity {
         posButton.setBackgroundColor(Color.RED);
         posButton.setTextColor(Color.BLACK);
         negButton.setTextColor(Color.BLACK);
-    }
+    }//end makeDialogBox
 
     //create a dialog box if task is empty
     private void emptyTaskDialog(){
@@ -232,6 +231,6 @@ public class MainActivity extends AppCompatActivity {
 
         AlertDialog dialog = builder.create();
         dialog.show();
-    }
+    }//end emptyTaskDialog
 }
 

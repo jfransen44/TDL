@@ -6,33 +6,23 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="SEM" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c451bca-bec9-4ab2-977e-ae35030a6a5e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_23_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/appengine_api_1_0_sdk_1_9_30.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/commons_codec_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/commons_logging_1_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/design_23_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/firebase_client_android_2_3_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/firebase_client_jvm_2_4_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/httpclient_4_0_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/httpcore_4_0_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/jackson_annotations_2_2_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/jackson_core_2_2_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/jackson_databind_2_2_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/recyclerview_v7_23_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/servlet_api_2_5.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_annotations_23_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_23_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/tubesock_0_0_12.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/jfransen44/tdl/VerifyData.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend2/build/classes/main/com/example/JFransen44/myapplication/backend/MyServlet$1.class" afterPath="$PROJECT_DIR$/backend2/build/classes/main/com/example/JFransen44/myapplication/backend/MyServlet$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend2/build/exploded-app/WEB-INF/classes/com/example/JFransen44/myapplication/backend/MyServlet$1.class" afterPath="$PROJECT_DIR$/backend2/build/exploded-app/WEB-INF/classes/com/example/JFransen44/myapplication/backend/MyServlet$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend2/build/classes/main/com/example/JFransen44/myapplication/backend/MyServlet.class" afterPath="$PROJECT_DIR$/backend2/build/classes/main/com/example/JFransen44/myapplication/backend/MyServlet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend2/build/exploded-app/WEB-INF/classes/com/example/JFransen44/myapplication/backend/MyServlet.class" afterPath="$PROJECT_DIR$/backend2/build/exploded-app/WEB-INF/classes/com/example/JFransen44/myapplication/backend/MyServlet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend2/build/libs/backend2.war" afterPath="$PROJECT_DIR$/backend2/build/libs/backend2.war" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/outputFileStates.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/jfransen44/tdl/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jfransen44/tdl/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend2/src/main/java/com/example/JFransen44/myapplication/backend/MyServlet.java" afterPath="$PROJECT_DIR$/backend2/src/main/java/com/example/JFransen44/myapplication/backend/MyServlet.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TDL.iws" />
@@ -77,43 +67,29 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/jfransen44/tdl/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.20750552">
-              <caret line="102" column="42" selection-start-line="102" selection-start-column="42" selection-end-line="102" selection-end-column="42" />
+            <state vertical-scroll-proportion="0.66225165">
+              <caret line="53" column="78" selection-start-line="53" selection-start-column="27" selection-end-line="53" selection-end-column="78" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2697#2819#0" expanded="true" />
-                <element signature="e#2818#2819#0" expanded="true" />
-                <element signature="e#2996#3350#0" expanded="true" />
-                <element signature="e#3349#3350#0" expanded="true" />
-                <element signature="e#4610#4931#0" expanded="true" />
-                <element signature="e#4930#4931#0" expanded="true" />
-                <element signature="e#5081#6333#0" expanded="true" />
-                <element signature="e#6332#6333#0" expanded="true" />
-                <element signature="e#6770#6793#0" expanded="true" />
-                <element signature="e#6868#6893#0" expanded="true" />
-                <element signature="e#6895#7145#0" expanded="true" />
-                <element signature="e#7144#7145#0" expanded="true" />
-                <element signature="e#7231#7256#0" expanded="true" />
-                <element signature="e#7258#8238#0" expanded="true" />
-                <element signature="e#8237#8238#0" expanded="true" />
-                <element signature="e#8336#8356#0" expanded="true" />
-                <element signature="e#8358#8901#0" expanded="true" />
-                <element signature="e#8668#8701#0" expanded="true" />
-                <element signature="e#8900#8901#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="VerifyData.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/jfransen44/tdl/VerifyData.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#409#410#0" expanded="true" />
-                <element signature="e#437#438#0" expanded="true" />
+                <element signature="e#4628#4750#0" expanded="true" />
+                <element signature="e#4749#4750#0" expanded="true" />
+                <element signature="e#4909#5263#0" expanded="true" />
+                <element signature="e#5262#5263#0" expanded="true" />
+                <element signature="e#5389#5710#0" expanded="true" />
+                <element signature="e#5709#5710#0" expanded="true" />
+                <element signature="e#5860#6230#0" expanded="true" />
+                <element signature="e#6229#6230#0" expanded="true" />
+                <element signature="e#6667#6690#0" expanded="true" />
+                <element signature="e#6765#6790#0" expanded="true" />
+                <element signature="e#6792#7042#0" expanded="true" />
+                <element signature="e#7041#7042#0" expanded="true" />
+                <element signature="e#7128#7153#0" expanded="true" />
+                <element signature="e#7155#7347#0" expanded="true" />
+                <element signature="e#7346#7347#0" expanded="true" />
+                <element signature="e#7445#7465#0" expanded="true" />
+                <element signature="e#7467#8010#0" expanded="true" />
+                <element signature="e#7777#7810#0" expanded="true" />
+                <element signature="e#8009#8010#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -136,10 +112,9 @@
         <entry file="file://$PROJECT_DIR$/backend2/src/main/java/com/example/JFransen44/myapplication/backend/MyServlet.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+              <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
               <folding>
-                <element signature="e#0#3322#0" expanded="true" />
-                <element signature="imports" expanded="true" />
+                <element signature="e#0#3380#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -2942,12 +2917,14 @@
         <option value="$PROJECT_DIR$/backend/src/main/webapp/WEB-INF/cron.xml" />
         <option value="$PROJECT_DIR$/backend/src/main/webapp/WEB-INF/appengine-web.xml" />
         <option value="$PROJECT_DIR$/backend/src/main/java/com/example/JFransen44/myapplication/backend/MyServlet.java" />
-        <option value="$PROJECT_DIR$/backend2/src/main/java/com/example/JFransen44/myapplication/backend/MyServlet.java" />
         <option value="$PROJECT_DIR$/backend2/src/main/webapp/WEB-INF/cron.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/jfransen44/tdl/MakeDialog.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/jfransen44/tdl/VerifyData.java" />
+        <option value="$PROJECT_DIR$/backend2/src/main/java/com/example/JFransen44/myapplication/backend/MyServlet.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/jfransen44/tdl/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/jfransen44/tdl/TaskItem.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/jfransen44/tdl/HandleData.java" />
       </list>
     </option>
   </component>
@@ -2955,9 +2932,9 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="41" />
-    <option name="y" value="23" />
-    <option name="width" value="1217" />
+    <option name="x" value="85" />
+    <option name="y" value="33" />
+    <option name="width" value="1107" />
     <option name="height" value="833" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -3406,7 +3383,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="41" y="23" width="1217" height="833" extended-state="0" />
+    <frame x="85" y="33" width="1107" height="833" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -3430,7 +3407,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28851065" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31830987" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914925" sideWeight="0.49116346" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -3470,25 +3447,25 @@
           <caret line="39" column="63" selection-start-line="39" selection-start-column="63" selection-end-line="39" selection-end-column="63" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2697#2819#0" expanded="true" />
-            <element signature="e#2818#2819#0" expanded="true" />
-            <element signature="e#2996#3350#0" expanded="true" />
-            <element signature="e#3349#3350#0" expanded="true" />
-            <element signature="e#4610#4931#0" expanded="true" />
-            <element signature="e#4930#4931#0" expanded="true" />
-            <element signature="e#5081#6333#0" expanded="true" />
-            <element signature="e#6332#6333#0" expanded="true" />
-            <element signature="e#6770#6793#0" expanded="true" />
-            <element signature="e#6868#6893#0" expanded="true" />
-            <element signature="e#6895#7145#0" expanded="true" />
-            <element signature="e#7144#7145#0" expanded="true" />
-            <element signature="e#7231#7256#0" expanded="true" />
-            <element signature="e#7258#8238#0" expanded="true" />
-            <element signature="e#8237#8238#0" expanded="true" />
-            <element signature="e#8336#8356#0" expanded="true" />
-            <element signature="e#8358#8901#0" expanded="true" />
-            <element signature="e#8668#8701#0" expanded="true" />
-            <element signature="e#8900#8901#0" expanded="true" />
+            <element signature="e#4628#4750#0" expanded="true" />
+            <element signature="e#4749#4750#0" expanded="true" />
+            <element signature="e#4909#5263#0" expanded="true" />
+            <element signature="e#5262#5263#0" expanded="true" />
+            <element signature="e#5389#5710#0" expanded="true" />
+            <element signature="e#5709#5710#0" expanded="true" />
+            <element signature="e#5860#6230#0" expanded="true" />
+            <element signature="e#6229#6230#0" expanded="true" />
+            <element signature="e#6667#6690#0" expanded="true" />
+            <element signature="e#6765#6790#0" expanded="true" />
+            <element signature="e#6792#7042#0" expanded="true" />
+            <element signature="e#7041#7042#0" expanded="true" />
+            <element signature="e#7128#7153#0" expanded="true" />
+            <element signature="e#7155#7347#0" expanded="true" />
+            <element signature="e#7346#7347#0" expanded="true" />
+            <element signature="e#7445#7465#0" expanded="true" />
+            <element signature="e#7467#8010#0" expanded="true" />
+            <element signature="e#7777#7810#0" expanded="true" />
+            <element signature="e#8009#8010#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -3509,8 +3486,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="51" column="6" selection-start-line="51" selection-start-column="6" selection-end-line="51" selection-end-column="6" />
           <folding>
-            <element signature="e#0#3322#0" expanded="true" />
-            <element signature="imports" expanded="true" />
+            <element signature="e#0#3380#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -3576,13 +3552,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-23/android/view/View.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="15670" column="0" selection-start-line="15670" selection-start-column="0" selection-end-line="15670" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/backend2/src/main/java/com/example/JFransen44/myapplication/backend/MyServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
           <folding>
-            <element signature="e#0#3322#0" expanded="true" />
-            <element signature="imports" expanded="true" />
+            <element signature="e#0#3380#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -3598,51 +3581,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-23/android/view/View.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
-          <caret line="15670" column="0" selection-start-line="15670" selection-start-column="0" selection-end-line="15670" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/jfransen44/tdl/VerifyData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#409#410#0" expanded="true" />
-            <element signature="e#437#438#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/jfransen44/tdl/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20750552">
-          <caret line="102" column="42" selection-start-line="102" selection-start-column="42" selection-end-line="102" selection-end-column="42" />
+        <state vertical-scroll-proportion="0.66225165">
+          <caret line="53" column="78" selection-start-line="53" selection-start-column="27" selection-end-line="53" selection-end-column="78" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2697#2819#0" expanded="true" />
-            <element signature="e#2818#2819#0" expanded="true" />
-            <element signature="e#2996#3350#0" expanded="true" />
-            <element signature="e#3349#3350#0" expanded="true" />
-            <element signature="e#4610#4931#0" expanded="true" />
-            <element signature="e#4930#4931#0" expanded="true" />
-            <element signature="e#5081#6333#0" expanded="true" />
-            <element signature="e#6332#6333#0" expanded="true" />
-            <element signature="e#6770#6793#0" expanded="true" />
-            <element signature="e#6868#6893#0" expanded="true" />
-            <element signature="e#6895#7145#0" expanded="true" />
-            <element signature="e#7144#7145#0" expanded="true" />
-            <element signature="e#7231#7256#0" expanded="true" />
-            <element signature="e#7258#8238#0" expanded="true" />
-            <element signature="e#8237#8238#0" expanded="true" />
-            <element signature="e#8336#8356#0" expanded="true" />
-            <element signature="e#8358#8901#0" expanded="true" />
-            <element signature="e#8668#8701#0" expanded="true" />
-            <element signature="e#8900#8901#0" expanded="true" />
+            <element signature="e#4628#4750#0" expanded="true" />
+            <element signature="e#4749#4750#0" expanded="true" />
+            <element signature="e#4909#5263#0" expanded="true" />
+            <element signature="e#5262#5263#0" expanded="true" />
+            <element signature="e#5389#5710#0" expanded="true" />
+            <element signature="e#5709#5710#0" expanded="true" />
+            <element signature="e#5860#6230#0" expanded="true" />
+            <element signature="e#6229#6230#0" expanded="true" />
+            <element signature="e#6667#6690#0" expanded="true" />
+            <element signature="e#6765#6790#0" expanded="true" />
+            <element signature="e#6792#7042#0" expanded="true" />
+            <element signature="e#7041#7042#0" expanded="true" />
+            <element signature="e#7128#7153#0" expanded="true" />
+            <element signature="e#7155#7347#0" expanded="true" />
+            <element signature="e#7346#7347#0" expanded="true" />
+            <element signature="e#7445#7465#0" expanded="true" />
+            <element signature="e#7467#8010#0" expanded="true" />
+            <element signature="e#7777#7810#0" expanded="true" />
+            <element signature="e#8009#8010#0" expanded="true" />
           </folding>
         </state>
       </provider>
