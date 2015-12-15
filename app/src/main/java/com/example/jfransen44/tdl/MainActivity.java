@@ -6,7 +6,6 @@ import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -84,16 +83,12 @@ public class MainActivity extends AppCompatActivity {
         //change item background color if checkbox is selected
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Log.d("TEST", Integer.toString(position));
                 if (listView.isItemChecked(position))
                     view.setBackgroundColor(Color.GRAY);
                 else
                     view.setBackgroundColor(Color.TRANSPARENT);
             }
         });
-
-        //Log.d("TEST", listView.getItemAtPosition(1).toString());
-        //VerifyData v = new VerifyData(adapter);
     }//end onCreate
 
     //called when user clicks add task button; start new activity
@@ -109,10 +104,14 @@ public class MainActivity extends AppCompatActivity {
                 this.taskString = data.getStringExtra("taskString");
                 this.taskDate = data.getStringExtra("dateString");
                 this.taskTime = data.getStringExtra("timeString");
-                new Firebase("https://glowing-torch-1077.firebaseio.com/todoItems")
-                        .push()
-                        .child("text")
-                        .setValue(taskString + " " + taskDate + " " + " " + taskTime);
+                if(! this.taskString.isEmpty()) {
+                    new Firebase("https://glowing-torch-1077.firebaseio.com/todoItems")
+                            .push()
+                            .child("text")
+                            .setValue(taskString + " " + taskDate + " " + " " + taskTime);
+                }
+                else
+                    emptyTaskDialog();
             }
 
         }
@@ -216,6 +215,23 @@ public class MainActivity extends AppCompatActivity {
         posButton.setBackgroundColor(Color.RED);
         posButton.setTextColor(Color.BLACK);
         negButton.setTextColor(Color.BLACK);
+    }
+
+    //create a dialog box if task is empty
+    private void emptyTaskDialog(){
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+
+        builder.setMessage("Description is empty.");
+        builder.setCancelable(false);
+        builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+
+            }
+        });
+
+        AlertDialog dialog = builder.create();
+        dialog.show();
     }
 }
 
