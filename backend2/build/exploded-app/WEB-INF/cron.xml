@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cronentries>
+    <!--cron>
+        <url>/hello</url>
+        uncomment to activate cron
+        <description>Send me an email of outstanding items in the morning</description>
+        <schedule>  </-schedule>
+    </cron-->
+</cronentries>

@@ -21,7 +21,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.jfransen44.tdl.AddTaskActivity"
+            android:name=".AddTaskActivity"
             android:label="@string/title_activity_add_task"
             android:parentActivityName=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar" >
