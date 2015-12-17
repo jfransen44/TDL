@@ -9,22 +9,7 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c451bca-bec9-4ab2-977e-ae35030a6a5e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/jfransen44/tdl/VerifyData.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend2/build/classes/main/com/example/JFransen44/myapplication/backend/MyServlet$1.class" afterPath="$PROJECT_DIR$/backend2/build/classes/main/com/example/JFransen44/myapplication/backend/MyServlet$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend2/build/exploded-app/WEB-INF/classes/com/example/JFransen44/myapplication/backend/MyServlet$1.class" afterPath="$PROJECT_DIR$/backend2/build/exploded-app/WEB-INF/classes/com/example/JFransen44/myapplication/backend/MyServlet$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend2/build/classes/main/com/example/JFransen44/myapplication/backend/MyServlet.class" afterPath="$PROJECT_DIR$/backend2/build/classes/main/com/example/JFransen44/myapplication/backend/MyServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend2/build/exploded-app/WEB-INF/classes/com/example/JFransen44/myapplication/backend/MyServlet.class" afterPath="$PROJECT_DIR$/backend2/build/exploded-app/WEB-INF/classes/com/example/JFransen44/myapplication/backend/MyServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend2/build/libs/backend2.war" afterPath="$PROJECT_DIR$/backend2/build/libs/backend2.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/outputFileStates.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/jfransen44/tdl/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jfransen44/tdl/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend2/src/main/java/com/example/JFransen44/myapplication/backend/MyServlet.java" afterPath="$PROJECT_DIR$/backend2/src/main/java/com/example/JFransen44/myapplication/backend/MyServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="9c451bca-bec9-4ab2-977e-ae35030a6a5e" name="Default" comment="" />
     <ignored path="TDL.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -61,108 +46,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="TDL" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/jfransen44/tdl/MainActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.66225165">
-              <caret line="53" column="78" selection-start-line="53" selection-start-column="27" selection-end-line="53" selection-end-column="78" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#4628#4750#0" expanded="true" />
-                <element signature="e#4749#4750#0" expanded="true" />
-                <element signature="e#4909#5263#0" expanded="true" />
-                <element signature="e#5262#5263#0" expanded="true" />
-                <element signature="e#5389#5710#0" expanded="true" />
-                <element signature="e#5709#5710#0" expanded="true" />
-                <element signature="e#5860#6230#0" expanded="true" />
-                <element signature="e#6229#6230#0" expanded="true" />
-                <element signature="e#6667#6690#0" expanded="true" />
-                <element signature="e#6765#6790#0" expanded="true" />
-                <element signature="e#6792#7042#0" expanded="true" />
-                <element signature="e#7041#7042#0" expanded="true" />
-                <element signature="e#7128#7153#0" expanded="true" />
-                <element signature="e#7155#7347#0" expanded="true" />
-                <element signature="e#7346#7347#0" expanded="true" />
-                <element signature="e#7445#7465#0" expanded="true" />
-                <element signature="e#7467#8010#0" expanded="true" />
-                <element signature="e#7777#7810#0" expanded="true" />
-                <element signature="e#8009#8010#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_main.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.142857">
-              <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyServlet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend2/src/main/java/com/example/JFransen44/myapplication/backend/MyServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
-              <folding>
-                <element signature="e#0#3380#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="appengine-web.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend2/src/main/webapp/WEB-INF/appengine-web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="1" column="48" selection-start-line="1" selection-start-column="48" selection-end-line="1" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cron.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend2/src/main/webapp/WEB-INF/cron.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
-              <folding>
-                <marker date="1450144363000" expanded="true" signature="61:259" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend2/src/main/webapp/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AddTaskActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/jfransen44/tdl/AddTaskActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -1613,332 +1496,6 @@
             </list>
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/backend">
-          <value>
-            <list>
-              <ExternalTaskPojo>
-                <option name="description" value="Internal task, do not use" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/backend" />
-                <option name="name" value="_appengineEndpointsAndroidArtifact" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Internal task, do not use" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/backend" />
-                <option name="name" value="_appengineEndpointsArtifact" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Configures backends on App Engine." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/backend" />
-                <option name="name" value="appengineConfigureBackends" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Get cron information from App Engine." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/backend" />
-                <option name="name" value="appengineCronInfo" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Deletes backend on App Engine." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/backend" />
-                <option name="name" value="appengineDeleteBackend" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Retrieves the most current version of your application." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/backend" />
-                <option name="name" value="appengineDownloadApp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Downloads and sets Google App Engine SDK." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/backend" />
-                <option name="name" value="appengineDownloadSdk" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Expand the generated client libraries sources in to build/generated-source" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/backend" />
-                <option name="name" value="appengineEndpointsExpandClientLibs" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Export the generated client libraries jars to a user-defined destination" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/backend" />
-                <option name="name" value="appengineEndpointsExportClientLibs" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Generate Endpoints java client libraries for classes defined in web.xml" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/backend" />
-                <option name="name" value="appengineEndpointsGetClientLibs" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Generate Endpoints discovery docs for classes defined in web.xml" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/backend" />
-                <option name="name" value="appengineEndpointsGetDiscoveryDocs" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Install generated client libs into the local Maven repository" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/backend" />
-                <option name="name" value="appengineEndpointsInstallClientLibs" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Enhances DataNucleus classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/backend" />
-                <option name="name" value="appengineEnhance" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Explodes WAR archive into directory." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/backend" />
-                <option name="name" value="appengineExplodeApp" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Runs functional tests" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/backend" />
-                <option name="name" value="appengineFunctionalTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Lists backends on App Engine." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/backend" />
-                <option name="name" value="appengineListBackends" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Download logs from App Engine." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/backend" />
-                <option name="name" value="appengineLogs" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Undoes a partially completed update for the given application." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/backend" />
-                <option name="name" value="appengineRollback" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Rolls back backend on App Engine." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/backend" />
-                <option name="name" value="appengineRollbackBackend" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Starts up a local App Engine development server." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/backend" />
-                <option name="name" value="appengineRun" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Starts backend on App Engine." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/backend" />
-                <option name="name" value="appengineStartBackend" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Stops local App Engine development server." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/backend" />
-                <option name="name" value="appengineStop" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Stops backend on App Engine." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/backend" />
-                <option name="name" value="appengineStopBackend" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Updates your application on App Engine." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/backend" />
-                <option name="name" value="appengineUpdate" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Updates your application and all backends on App Engine." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/backend" />
-                <option name="name" value="appengineUpdateAll" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Updates all backends on App Engine." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/backend" />
-                <option name="name" value="appengineUpdateAllBackends" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Updates backend on App Engine." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/backend" />
-                <option name="name" value="appengineUpdateBackend" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Updates scheduled tasks definition (known as cron jobs) on App Engine." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/backend" />
-                <option name="name" value="appengineUpdateCron" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Updates dispatch file on App Engine." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/backend" />
-                <option name="name" value="appengineUpdateDispatch" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Updates DoS protection configuration on App Engine." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/backend" />
-                <option name="name" value="appengineUpdateDos" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Updates indexes on App Engine." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/backend" />
-                <option name="name" value="appengineUpdateIndexes" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Updates task queues on App Engine." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/backend" />
-                <option name="name" value="appengineUpdateQueues" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Deletes unused indexes on App Engine." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/backend" />
-                <option name="name" value="appengineVacuumIndexes" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prints detailed version information about the SDK, Java and the operating system." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/backend" />
-                <option name="name" value="appengineVersion" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles the outputs of this project." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/backend" />
-                <option name="name" value="assemble" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/backend" />
-                <option name="name" value="build" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/backend" />
-                <option name="name" value="buildDependents" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project and all projects it depends on." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/backend" />
-                <option name="name" value="buildNeeded" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Runs all checks." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/backend" />
-                <option name="name" value="check" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles main classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/backend" />
-                <option name="name" value="classes" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Deletes the build directory." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/backend" />
-                <option name="name" value="clean" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles endpoints src Java source." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/backend" />
-                <option name="name" value="compileEndpointsSrcJava" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles functional test Java source." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/backend" />
-                <option name="name" value="compileFunctionalTestJava" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles main Java source." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/backend" />
-                <option name="name" value="compileJava" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles test Java source." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/backend" />
-                <option name="name" value="compileTestJava" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the components produced by project ':backend'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/backend" />
-                <option name="name" value="components" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays all dependencies declared in project ':backend'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/backend" />
-                <option name="name" value="dependencies" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the insight into a specific dependency in project ':backend'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/backend" />
-                <option name="name" value="dependencyInsight" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles endpoints src classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/backend" />
-                <option name="name" value="endpointsSrcClasses" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles functional test classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/backend" />
-                <option name="name" value="functionalTestClasses" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays a help message." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/backend" />
-                <option name="name" value="help" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles a jar archive containing the main classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/backend" />
-                <option name="name" value="jar" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Generates Javadoc API documentation for the main source code." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/backend" />
-                <option name="name" value="javadoc" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the configuration model of project ':backend'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/backend" />
-                <option name="name" value="model" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Processes endpoints src resources." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/backend" />
-                <option name="name" value="processEndpointsSrcResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Processes functional test resources." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/backend" />
-                <option name="name" value="processFunctionalTestResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Processes main resources." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/backend" />
-                <option name="name" value="processResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Processes test resources." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/backend" />
-                <option name="name" value="processTestResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the sub-projects of project ':backend'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/backend" />
-                <option name="name" value="projects" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the properties of project ':backend'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/backend" />
-                <option name="name" value="properties" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the tasks runnable from project ':backend'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/backend" />
-                <option name="name" value="tasks" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Runs the unit tests." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/backend" />
-                <option name="name" value="test" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles test classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/backend" />
-                <option name="name" value="testClasses" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Generates a war archive with all the compiled classes, the web-app content and the libraries." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/backend" />
-                <option name="name" value="war" />
-              </ExternalTaskPojo>
-            </list>
-          </value>
-        </entry>
         <entry key="$PROJECT_DIR$/backend2">
           <value>
             <list>
@@ -2922,9 +2479,9 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/jfransen44/tdl/VerifyData.java" />
         <option value="$PROJECT_DIR$/backend2/src/main/java/com/example/JFransen44/myapplication/backend/MyServlet.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/jfransen44/tdl/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/jfransen44/tdl/TaskItem.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/jfransen44/tdl/HandleData.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/jfransen44/tdl/MainActivity.java" />
       </list>
     </option>
   </component>
@@ -3384,36 +2941,36 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="85" y="33" width="1107" height="833" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Monitor" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32914925" sideWeight="0.48821798" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32914925" sideWeight="0.48821798" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914925" sideWeight="0.51178205" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914925" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914925" sideWeight="0.51178205" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31830987" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914925" sideWeight="0.49116346" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914925" sideWeight="0.49116346" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914925" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914925" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -3439,176 +2996,5 @@
       <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/jfransen44/tdl/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="39" column="63" selection-start-line="39" selection-start-column="63" selection-end-line="39" selection-end-column="63" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#4628#4750#0" expanded="true" />
-            <element signature="e#4749#4750#0" expanded="true" />
-            <element signature="e#4909#5263#0" expanded="true" />
-            <element signature="e#5262#5263#0" expanded="true" />
-            <element signature="e#5389#5710#0" expanded="true" />
-            <element signature="e#5709#5710#0" expanded="true" />
-            <element signature="e#5860#6230#0" expanded="true" />
-            <element signature="e#6229#6230#0" expanded="true" />
-            <element signature="e#6667#6690#0" expanded="true" />
-            <element signature="e#6765#6790#0" expanded="true" />
-            <element signature="e#6792#7042#0" expanded="true" />
-            <element signature="e#7041#7042#0" expanded="true" />
-            <element signature="e#7128#7153#0" expanded="true" />
-            <element signature="e#7155#7347#0" expanded="true" />
-            <element signature="e#7346#7347#0" expanded="true" />
-            <element signature="e#7445#7465#0" expanded="true" />
-            <element signature="e#7467#8010#0" expanded="true" />
-            <element signature="e#7777#7810#0" expanded="true" />
-            <element signature="e#8009#8010#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend2/src/main/java/com/example/JFransen44/myapplication/backend/MyServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="51" column="6" selection-start-line="51" selection-start-column="6" selection-end-line="51" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#3380#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/jfransen44/tdl/AddTaskActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/jfransen44/tdl/AddTaskActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_main.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend2/src/main/webapp/WEB-INF/logging.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend2/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend2/src/main/webapp/WEB-INF/cron.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
-          <folding>
-            <marker date="1450144363000" expanded="true" signature="61:259" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend2/src/main/webapp/WEB-INF/appengine-web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="48" selection-start-line="1" selection-start-column="48" selection-end-line="1" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-23/android/view/View.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
-          <caret line="15670" column="0" selection-start-line="15670" selection-start-column="0" selection-end-line="15670" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend2/src/main/java/com/example/JFransen44/myapplication/backend/MyServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#3380#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.142857">
-          <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/jfransen44/tdl/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.66225165">
-          <caret line="53" column="78" selection-start-line="53" selection-start-column="27" selection-end-line="53" selection-end-column="78" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#4628#4750#0" expanded="true" />
-            <element signature="e#4749#4750#0" expanded="true" />
-            <element signature="e#4909#5263#0" expanded="true" />
-            <element signature="e#5262#5263#0" expanded="true" />
-            <element signature="e#5389#5710#0" expanded="true" />
-            <element signature="e#5709#5710#0" expanded="true" />
-            <element signature="e#5860#6230#0" expanded="true" />
-            <element signature="e#6229#6230#0" expanded="true" />
-            <element signature="e#6667#6690#0" expanded="true" />
-            <element signature="e#6765#6790#0" expanded="true" />
-            <element signature="e#6792#7042#0" expanded="true" />
-            <element signature="e#7041#7042#0" expanded="true" />
-            <element signature="e#7128#7153#0" expanded="true" />
-            <element signature="e#7155#7347#0" expanded="true" />
-            <element signature="e#7346#7347#0" expanded="true" />
-            <element signature="e#7445#7465#0" expanded="true" />
-            <element signature="e#7467#8010#0" expanded="true" />
-            <element signature="e#7777#7810#0" expanded="true" />
-            <element signature="e#8009#8010#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>
