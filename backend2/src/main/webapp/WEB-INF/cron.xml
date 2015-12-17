@@ -2,7 +2,8 @@
 <cronentries>
     <!--cron>
         <url>/hello</url>
+        uncomment to activate cron
         <description>Send me an email of outstanding items in the morning</description>
-        <schedule>every 2 minutes</schedule>
+        <schedule>  </-schedule>
     </cron-->
 </cronentries>
